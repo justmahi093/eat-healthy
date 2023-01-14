@@ -1,0 +1,80 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+section{
+    display: flex;
+    margin-bottom: 80px;
+}
+.orange-color{
+    color: orange;
+}
+.diet-item img{
+    max-width: 100%;}
+
+.diet-item{
+    width: 50%;
+    padding-left: 30px;
+    margin-top: 5%;
+}
+.diet-item h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.diet-item p {
+    width: 64%;
+    color: gray;
+    line-height: 24px;
+    word-spacing: 3px;
+}
+
+.diet-item a {
+    text-decoration: none;
+    color: #fff;
+    background: tomato;
+    padding: 18px 36px;
+    border-radius: 30px;
+}
+
+.diet-item p {
+    margin-bottom: 40px;
+    margin-top: 46px;
+}
+#aboutMe{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.about-image {
+    width: 50%;
+}
+.about-image img {
+    max-width: 60%;
+    max-height: 67%;
+    margin-left: 34%;
+    margin-top: 5%;
+}
+
+.about-text {
+    width: 50%;
+}
+.about-text h1 {
+    color: #222222b5;
+    font-size: 39px;
+}
+
+.about-text p {
+    text-align: justify;
+    line-height: 29px;
+    width: 67%;
+    margin-bottom: 44px;
+}
+
+.about-text a {
+    text-decoration: none;
+    color: white;
+    background: tomato;
+    padding: 16px 34px;
+    border-radius: 30px;
+}
