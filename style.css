@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 80px;
 }
@@ -10,7 +10,8 @@ section{
     color: orange;
 }
 .diet-item img{
-    max-width: 100%;}
+    max-width: 100%;
+}
 
 .diet-item{
     width: 50%;
@@ -41,7 +42,7 @@ section{
     margin-bottom: 40px;
     margin-top: 46px;
 }
-#aboutMe{
+.aboutMe{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -77,4 +78,83 @@ section{
     background: tomato;
     padding: 16px 34px;
     border-radius: 30px;
+}
+.myRecipies h1 {
+    text-align: center;
+    color: #222222bf;
+    font-size: 37px;
+}
+.myRecipies p {
+    text-align: center;
+    width: 44%;
+    margin: auto;
+    line-height: 25px;
+}
+.recipie-item {
+    width: 50%;
+    box-shadow: 10px 10px 17px #808080b8;
+    border-radius: 39px;
+    margin-right: 37px;
+    margin-left: 31px;
+    margin-top: 35px;
+}
+
+.recipie-item img {
+    max-width: 75%;
+    margin-top: 43px;
+    margin-left: 11%;
+}
+.recipie-item h1 {
+    color: black;
+    font-size: 27px;
+    text-align: left;
+    padding-left: 69px;
+}
+
+.recipie-item p {
+    line-height: 25px;
+    width: 73%;
+    text-align: justify;
+    padding-bottom: 23px;
+}
+.wrapper {
+    text-align: center;
+}
+
+.chose-item {
+    margin: auto;
+}
+.counter {
+    box-shadow: 1px 2px 12px #808080c9;
+    border-radius: 9px;
+    width: 1120px;
+    margin: auto;
+    padding: 26px;
+}
+
+.chose-item h1 {
+    font-size: 38px;
+    color: black;
+    font-weight: 700;
+}
+
+.chose-item span {
+    font-size: 16px;
+}
+.footer {
+    background: black;
+}
+.footer {
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 36px;
+    padding-bottom: 80px;
+}
+
+footer.footer h1 {
+    color: gray;
+}
+
+footer.footer p {
+    color: white;
 }
